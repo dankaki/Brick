@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Brick</string>
+    <string name="ideas">Ideas</string>
+    <string name="code">Programming</string>
+    <string name="data">Sensors data</string>
+    <string name="remote">Control</string>
+    <string name="title_activity_program">ProgramActivity</string>
+    <string name="help">Help</string>
+    <string name="tutors">Tutorials</string>
+    <string-array name="cat_names">
+        <item>Рыжик</item>
+        <item>Барсик</item>
+        <item>Мурзик</item>
+    </string-array>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="led1">led1</string>
+    <string name="led2">led2</string>
+    <string name="led3">led3</string>
+    <string name="motor1">motor1</string>
+    <string name="motor2">motor2</string>
+    <string name="motor3">motor3</string>
+</resources>
