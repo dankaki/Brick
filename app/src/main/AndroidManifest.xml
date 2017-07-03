@@ -29,7 +29,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.a77_da_000.brick.ProgramActivity" />
         </activity>
-        <activity android:name=".ControlActivity"></activity>
+        <activity android:name=".ControlActivity" />
+        <activity android:name=".DataActivity"></activity>
     </application>
 
 </manifest>

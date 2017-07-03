@@ -1,6 +1,5 @@
 package com.example.a77_da_000.brick;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,10 +15,10 @@ public class ControlActivity extends AppCompatActivity {
 
         final ImageButton led1btn = (ImageButton) findViewById(R.id.led1btn);
         final ImageButton led2btn = (ImageButton) findViewById(R.id.led2btn);
-        final ImageButton led3btn = (ImageButton) findViewById(R.id.led3btn);
-        final ImageButton mot1btn = (ImageButton) findViewById(R.id.mot1btn);
+        final ImageButton led3btn = (ImageButton) findViewById(R.id.dataButton);
+        final ImageButton mot1btn = (ImageButton) findViewById(R.id.ideasButton);
         final ImageButton mot2btn = (ImageButton) findViewById(R.id.mot2btn);
-        final ImageButton mot3btn = (ImageButton) findViewById(R.id.mot3btn);
+        final ImageButton mot3btn = (ImageButton) findViewById(R.id.helpButton);
 
         led1btn.setOnClickListener(new View.OnClickListener(){
             @Override

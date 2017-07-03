@@ -21,4 +21,10 @@
     <string name="motor3">motor3</string>
     <string name="connection">Connection:</string>
     <string name="status_not_connected">Status: not connected</string>
+    <string name="_26_c">26°C</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="_35">35%</string>
+    <string name="brightness">Brightness</string>
+    <string name="_7_lx">7 lx</string>
 </resources>

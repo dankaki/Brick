@@ -28,8 +28,8 @@
             android:layout_height="wrap_content"
             android:text="@string/motor3"
             android:textSize="16sp"
-            app:layout_constraintLeft_toLeftOf="@+id/mot3btn"
-            app:layout_constraintRight_toRightOf="@+id/mot3btn"
+            app:layout_constraintLeft_toLeftOf="@+id/helpButton"
+            app:layout_constraintRight_toRightOf="@+id/helpButton"
             app:layout_constraintTop_toTopOf="@+id/textView4" />
 
         <TextView
@@ -49,17 +49,17 @@
             android:background="@drawable/oval"
             android:contentDescription="@string/ideas"
             app:layout_constraintLeft_toLeftOf="@+id/led2btn"
-            app:layout_constraintTop_toTopOf="@+id/mot1btn"
+            app:layout_constraintTop_toTopOf="@+id/ideasButton"
             app:srcCompat="@drawable/motor" />
 
         <ImageButton
-            android:id="@+id/mot3btn"
+            android:id="@+id/helpButton"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:background="@drawable/oval"
             android:contentDescription="@string/ideas"
-            app:layout_constraintLeft_toLeftOf="@+id/led3btn"
-            app:layout_constraintTop_toTopOf="@+id/mot1btn"
+            app:layout_constraintLeft_toLeftOf="@+id/dataButton"
+            app:layout_constraintTop_toTopOf="@+id/ideasButton"
             app:srcCompat="@drawable/motor" />
 
         <TextView
@@ -69,9 +69,9 @@
             android:layout_marginTop="5dp"
             android:text="@string/motor1"
             android:textSize="16sp"
-            app:layout_constraintLeft_toLeftOf="@+id/mot1btn"
-            app:layout_constraintRight_toRightOf="@+id/mot1btn"
-            app:layout_constraintTop_toBottomOf="@+id/mot1btn" />
+            app:layout_constraintLeft_toLeftOf="@+id/ideasButton"
+            app:layout_constraintRight_toRightOf="@+id/ideasButton"
+            app:layout_constraintTop_toBottomOf="@+id/ideasButton" />
 
         <TextView
             android:id="@+id/textView3"
@@ -79,8 +79,8 @@
             android:layout_height="wrap_content"
             android:text="@string/led3"
             android:textSize="16sp"
-            app:layout_constraintLeft_toLeftOf="@+id/led3btn"
-            app:layout_constraintRight_toRightOf="@+id/led3btn"
+            app:layout_constraintLeft_toLeftOf="@+id/dataButton"
+            app:layout_constraintRight_toRightOf="@+id/dataButton"
             app:layout_constraintTop_toTopOf="@+id/led2txt" />
 
         <TextView
@@ -106,7 +106,7 @@
             app:srcCompat="@drawable/led" />
 
         <ImageButton
-            android:id="@+id/mot1btn"
+            android:id="@+id/ideasButton"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:layout_marginTop="22dp"
@@ -117,7 +117,7 @@
             app:srcCompat="@drawable/motor" />
 
         <ImageButton
-            android:id="@+id/led3btn"
+            android:id="@+id/dataButton"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:layout_marginTop="16dp"

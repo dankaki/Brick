@@ -1,6 +1,7 @@
 package com.example.a77_da_000.brick;
 
 import android.content.Intent;
+import android.media.Image;
 import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,6 +32,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ControlActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton DataButton = (ImageButton) findViewById(R.id.dataButton);
+        DataButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DataActivity.class);
                 startActivity(intent);
             }
         });
