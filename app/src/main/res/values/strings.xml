@@ -19,4 +19,6 @@
     <string name="motor1">motor1</string>
     <string name="motor2">motor2</string>
     <string name="motor3">motor3</string>
+    <string name="connection">Connection:</string>
+    <string name="status_not_connected">Status: not connected</string>
 </resources>

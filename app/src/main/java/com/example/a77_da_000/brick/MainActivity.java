@@ -5,8 +5,12 @@ import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Spinner;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        ArrayList<String> devices = new ArrayList<>();
+        devices.add("None");
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,devices);
+        spinner.setAdapter(adapter);
     }
 
 
