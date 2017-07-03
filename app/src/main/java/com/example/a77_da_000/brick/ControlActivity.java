@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class ControlActivity extends AppCompatActivity {
     boolean l1,l2,l3,m1,m2,m3;
@@ -12,6 +13,9 @@ public class ControlActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_control);
+
+        Toast.makeText(getApplicationContext(),
+                "No connection", Toast.LENGTH_SHORT).show();
 
         final ImageButton led1btn = (ImageButton) findViewById(R.id.led1btn);
         final ImageButton led2btn = (ImageButton) findViewById(R.id.led2btn);

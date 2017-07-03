@@ -82,6 +82,11 @@ public class ProgramActivity extends AppCompatActivity {
                                 editalert.show();
                                 dialog.cancel();
                                 break;
+                            case 1:
+                                Toast.makeText(getApplicationContext(),
+                                        "No connection", Toast.LENGTH_SHORT).show();
+                                dialog.cancel();
+                                break;
                             case 2:
                                 SharedPreferences codedata = getSharedPreferences(
                                         "CodeFile"+progdata.getInt("idOfNumber"+intid,intid),0);
@@ -105,6 +110,7 @@ public class ProgramActivity extends AppCompatActivity {
                                 break;
 
                         }
+
 
                     }
                 });
